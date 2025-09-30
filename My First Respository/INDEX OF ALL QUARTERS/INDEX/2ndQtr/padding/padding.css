@@ -1,0 +1,38 @@
+.border {
+border-color: blue;
+border-radius: 30px;
+border: solid;
+margin-left: 3%;
+margin-right: 3%;
+margin-top: 2%;
+height: 370px;
+border-bottom: 100%;
+}
+.padding1 {
+border-style: solid;
+border-radius: 25px;
+border-color: blue;
+padding-left: 10px;
+margin-left: 5%;
+margin-right: 80%;
+height: 150px;
+}
+
+.padding2 {
+    padding: 15px;
+    border: 3px solid #1735df;
+    border-radius: 25px;
+    margin-right: 64%;
+    margin-left: 22%;
+    margin-top: -8.7%;
+    height: 123px;
+}
+.padding3 {
+    padding: 15px;
+    border: 3px solid #1735df;
+    border-radius: 25px;
+    margin-right: 46%;
+    margin-left: 38%;
+    margin-top: -9%;
+    height: 180px;
+}
