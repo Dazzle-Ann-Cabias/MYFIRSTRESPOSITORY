@@ -1,38 +1,133 @@
-.border {
-border-color: blue;
-border-radius: 30px;
-border: solid;
-margin-left: 3%;
-margin-right: 3%;
-margin-top: 2%;
-height: 370px;
-border-bottom: 100%;
-}
-.padding1 {
-border-style: solid;
-border-radius: 25px;
-border-color: blue;
-padding-left: 10px;
-margin-left: 5%;
-margin-right: 80%;
-height: 150px;
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://cdn.wallpapersafari.com/96/7/LwkyMK.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 20px;
+    border: 10px solid rgb(180, 112, 180);
+    border-radius: 15px;
+    margin: 35px;
 }
 
-.padding2 {
-    padding: 15px;
-    border: 3px solid #1735df;
-    border-radius: 25px;
-    margin-right: 64%;
-    margin-left: 22%;
-    margin-top: -8.7%;
-    height: 123px;
+.section {
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 35px;
+    border: 8px solid lightblue;
 }
-.padding3 {
-    padding: 15px;
-    border: 3px solid #1735df;
-    border-radius: 25px;
-    margin-right: 46%;
-    margin-left: 38%;
-    margin-top: -9%;
-    height: 180px;
+
+p {
+    border: 5px solid rgb(221, 202, 160);
+    border-radius: 15px;
+    margin: 10px;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+}
+/* singel padding */
+.pad-left {
+  height: 150px;
+  background-image: linear-gradient(0deg, rgb(153, 236, 181), rgb(155, 160, 233));
+  padding-left: 10px;
+  border-radius: 15px;
+  width: 15%;
+  margin-left: 4%;
+  padding-top: 5%;
+}
+.pad-right {
+  height: 150px;
+  background-image: linear-gradient(0deg, rgb(153, 236, 181), rgb(155, 160, 233));
+  width: 15%;
+  margin-top: -19.4%;
+  margin-left: 23%;
+  padding-top: 5%;
+  padding-right: 15px;
+}
+
+.pad-top {
+  padding-top: 25px;
+  height: 150px;
+  background-image: linear-gradient(0deg, rgb(153, 236, 181), rgb(155, 160, 233));
+  width: 15%;
+  margin-top: -19.4%;
+  margin-left: 42.5%;
+  padding-top: 5%;
+  padding-right: 15px;
+}
+
+.pad-bottom {
+  padding-bottom: 35px;
+  height: 120px;
+  background-image: linear-gradient(0deg, rgb(153, 236, 181), rgb(155, 160, 233));
+  width: 15%;
+  margin-top: -19.4%;
+  margin-left: 62%;
+  padding-top: 5%;
+  padding-right: 15px;
+}
+
+/* Multi Padding */
+.pad-top-right {
+  padding-top: 10px;
+  padding-right: 10px;
+  height: 150px;
+  background-image: linear-gradient(0deg, rgb(153, 236, 181), rgb(155, 160, 233));
+  padding-left: 10px;
+  border-radius: 15px;
+  width: 15%;
+  margin-left: 4%;
+  padding-top: 5%;
+}
+
+.pad-right-bottom {
+  padding-right: 15px;
+  padding-bottom: 15px;
+  height: 150px;
+  background-image: linear-gradient(0deg, rgb(153, 236, 181), rgb(155, 160, 233));
+  width: 15%;
+  margin-top: -19.4%;
+  margin-left: 23%;
+  padding-top: 5%;
+  padding-right: 15px;
+}
+
+.pad-bottom-left {
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  height: 130px;
+  background-image: linear-gradient(0deg, rgb(153, 236, 181), rgb(155, 160, 233));
+  width: 15%;
+  margin-top: -19.4%;
+  margin-left: 42.5%;
+  padding-top: 5%;
+  padding-right: 15px;
+}
+
+.pad-left-top {
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    height: 120px;
+    background-image: linear-gradient(0deg, rgb(153, 236, 181), rgb(155, 160, 233));
+    width: 15%;
+    margin-top: -19.4%;
+    margin-left: 62%;
+    padding-right: 15px;
+}
+
+/* All Side Padding */
+.pad-all {
+  padding: 25px;
+  padding-top: 10px;
+  padding-right: 10px;
+  height: 100px;
+  background-image: linear-gradient(0deg, rgb(153, 236, 181), rgb(155, 160, 233));
+  padding-left: 10px;
+  border-radius: 15px;
+  width: 15%;
+  margin-left: 4%;
+  padding-top: 5%;
 }
