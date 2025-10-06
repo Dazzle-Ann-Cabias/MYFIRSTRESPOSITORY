@@ -19,12 +19,12 @@ ul.sidenav li a {
 }
  
 ul.sidenav li a.active {
-  background-color: #4CAF50;
+  background-color: #069fdb;
   color: white;
 }
 
 ul.sidenav li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #27e4da;
   color: white;
 }
 
