@@ -1,0 +1,11 @@
+.header {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+.random{
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
