@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string</title>
+</head>
+<body>
+    <label for="num1">first number:</label>
+    <input type="num1" id="number" placeholder="enter a number"><br><br>
+    <label for="num2">second number:</label> 
+    <input type="num2" id="number" placeholder="enter a number"><br><br>
+
+    <button onclick="myFunction()">submit</button>
+    <p id="demo"></p>
+  <script>
+    const add1 = document.getElementById
+   ("num1");
+    const add2 = document.getElementById
+   ("num2");
+   const addName = document.getElementById
+   ("add");
+   const insert = document.getElementById
+   ("demo");
+
+    addName.addEventListener("click" , () => {
+    const addends = Number(add1.value);
+    const addends = Number(add2.value);  
+    insert.textContent = `the answer is ${addends + addends}!`;
+    });
+
+    // JS FOR STRING PAGE
+
+
+  </script>
+
+
+    
+</body>
+</html>

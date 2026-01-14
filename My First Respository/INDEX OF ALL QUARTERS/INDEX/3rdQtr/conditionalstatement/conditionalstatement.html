@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements Example</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 1rem; max-width: 700px; margin: auto; }
+        .example { border: 1px solid #ddd; padding: 1rem; margin: 1rem 0; border-radius: 6px; }
+        label, button { display: block; margin-top: 0.5rem; }
+        .result { margin-top: 0.5rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Showcasing if / else Conditions in JavaScript</h1>
+    <p>This page demonstrates simple conditional statements using JavaScript's <code>if</code>, <code>else if</code>, and <code>else</code>.</p>
+
+    <!-- Example 1: Age Checker (if / else) -->
+    <section class="example">
+        <h2>Example 1 — Age Checker (if / else)</h2>
+        <p>Enter your age and click <strong>Check Age</strong>. The script uses an <code>if</code> / <code>else</code> statement to decide whether the person is an adult.</p>
+        <label for="ageInput">Age:</label>
+        <input id="ageInput" type="number" min="0" placeholder="Enter age" />
+        <button id="checkAgeBtn">Check Age</button>
+        <p class="result" id="ageResult" aria-live="polite"></p>
+    </section>
+
+    <!-- Example 2: Temperature Advice (if / else if / else) -->
+    <section class="example">
+        <h2>Example 2 — Temperature Advice (if / else if / else)</h2>
+        <p>Type a temperature in Celsius. The script decides what to recommend using <code>if</code>, <code>else if</code>, and <code>else</code>.</p>
+        <label for="tempInput">Temperature (°C):</label>
+        <input id="tempInput" type="number" placeholder="e.g., 25" />
+        <button id="tempBtn">Get Advice</button>
+        <p class="result" id="tempResult" aria-live="polite"></p>
+    </section>
+        
+    <script>
+        // Example 1: if / else may naisip na ako
+        const ageInput = document.getElementById('ageInput');
+        const checkAgeBtn = document.getElementById('checkAgeBtn');
+        const ageResult = document.getElementById('ageResult');
+
+        checkAgeBtn.addEventListener('click', () => {
+            const age = Number(ageInput.value);
+            if (isNaN(age)) {
+                ageResult.textContent = 'Please enter a valid number for age.';
+                ageResult.style.color = 'crimson';
+                return;
+            }
+
+            // Here is the if / else logic: if age is 18 or older, show Adult, otherwise show Minor.
+            if (age >= 18) {
+                ageResult.textContent = `You are ${age} years old — Adult.`;
+                ageResult.style.color = 'green';
+            } else {
+                ageResult.textContent = `You are ${age} years old — Minor.`;
+                ageResult.style.color = 'blue';
+            }
+        });
+
+        // Example 2: if / else if / else
+        const tempInput = document.getElementById('tempInput');
+        const tempBtn = document.getElementById('tempBtn');
+        const tempResult = document.getElementById('tempResult');
+
+        tempBtn.addEventListener('click', () => {
+            const temp = Number(tempInput.value);
+            if (isNaN(temp)) {
+                tempResult.textContent = 'Please enter a valid temperature.';
+                tempResult.style.color = 'crimson';
+                return;
+            }
+
+            // CONDITIONAL STATEMENT FOR MAIN RESPO
+            if (temp <= 0) {
+                tempResult.textContent = 'Freezing! Wear a heavy coat.';
+                tempResult.style.color = 'navy';
+            } else if (temp <= 20) {
+                tempResult.textContent = 'Cool weather. Wear a jacket.';
+                tempResult.style.color = 'teal';
+            } else if (temp <= 30) {
+                tempResult.textContent = 'Nice and warm.';
+                tempResult.style.color = 'green';
+            } else {
+                tempResult.textContent = 'Hot — stay hydrated and stay in the shade.';
+                tempResult.style.color = 'orange';
+            }
+        });
+    </script>
+    
+</body>
+</html>

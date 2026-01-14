@@ -1,0 +1,62 @@
+<DOCTYPEHTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable in JavaScript</title>
+</head>
+<body>
+    <h1>Variable in JavaScript</h1>
+    <button type="button" onclick="privateVar()">show private variable</button>
+    <script>
+        let x = 50;
+        let y = 4;
+        y = 10;
+        x = 25;
+        console.log(x + y);
+        const z = 20;
+        console.log(z);
+        let let_This = 5;
+        console.log(let_This);
+        var studentName = "John";
+        console.log(studentName);
+
+        function privateVar() {
+        let _x = 25; }
+        Console.log(_x);
+        
+
+        var $ = "This is valid";
+        let $$ = "this is also valid";
+        console.log($);
+        console.log($$);
+        console.log($ + " " + $$);
+        let declareVar;
+        declareVar = "declared variable";
+        console.log(declareVar);
+
+        const price1 = 5;
+        const price2 = 10;
+        let total = price1 + price2;
+        console.log("total price " + total);
+        autovar = "This is an auto global variable";
+        autovar = "change value of a auto global variable";
+        console.log(autovar);
+        
+        let num1 = 5;
+        let num2 = 10;
+        let num3 = 15;
+        console.log(num1 + num2 + num3);
+        let text1 = "Hello ";
+        let text2 = "World!";
+        let text3 = "!";
+        console.log(text1 + " " + text2 + text3);
+        let a = 5, b = 10, c = 15;
+        console.log(a + b + c);
+        let addend = a + b + c;
+
+    </script>
+
+    <!-- variable respo in main repository -->
+</body>
+</html>
