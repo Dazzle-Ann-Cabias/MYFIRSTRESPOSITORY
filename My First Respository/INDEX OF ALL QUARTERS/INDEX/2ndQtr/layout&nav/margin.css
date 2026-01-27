@@ -1,0 +1,145 @@
+/* first container & left margin space */
+.shibalism {
+   display: grid;
+   grid-template-columns: repeat(3, 80px);
+   grid-template-rows: repeat(3, 80px);
+   gap: 0;
+   border: 2px solid black;
+   width: max-content;
+   margin: 10px;
+   margin-top: 2px;
+}
+
+.box {
+  background: lightblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.middle {
+  background: white;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 10px;
+  background-color: lightblue;
+}
+
+.middle p {
+  margin-left: 5px; 
+}
+
+/* 2nd container for right margin space*/
+.kazzling {
+   display: grid;
+   grid-template-columns: repeat(3, 80px);
+   grid-template-rows: repeat(3, 80px);
+   gap: 0;
+   border: 2px solid black;
+   width: max-content;
+   margin: 10px;
+   margin-top: -252px;
+   margin-left: 300px;
+}
+
+.box2 {
+  background: lightblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+.middle2 {
+  background: white;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 10px;
+  background-color: lightblue;
+}
+
+.middle2 p {
+  margin-left: 5px;
+}
+
+/* 3rd container for top margin space*/
+.bhea {
+   display: grid;
+   grid-template-columns: repeat(3, 80px);
+   grid-template-rows: repeat(3, 80px);
+   gap: 0;
+   border: 2px solid black;
+   width: max-content;
+   margin: 10px;
+   margin-top: -254px;
+   margin-left: 588px;
+}
+
+.box3 {
+  background: lightblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+.middle3 {
+  background: white;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: lightblue;
+}
+
+.middle3 p {
+  margin-left: 5px;
+}
+
+/* 4th container for bottom margin space*/
+.mech {
+   display: grid;
+   grid-template-columns: repeat(3, 80px);
+   grid-template-rows: repeat(3, 80px);
+   gap: 0;
+   border: 2px solid black;
+   width: max-content;
+   margin: 10px;
+   margin-top: -254px;
+   margin-left: 875px;
+}
+
+.box4 {
+  background: lightblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+.middle4 {
+  background: white;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: lightblue;
+}
+
+.middle4 p {
+  margin-left: 5px;
+}
